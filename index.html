@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttam's Portfolio</title>
+
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header design -->
+    <header class="header">
+        <a href="#" class="logo">Uttam</a>
+        <i class="fa-solid fa-bars" id="menu-bar"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Uttam</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm a passionate web developer and designer with a knack for creating beautiful, functional, and user-centered digital experiences. Welcome to my corner of the internet.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/uttam.pathak.5268"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/Utttam-Pathak"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/cristiano.uttam/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pathakuttam/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="image/cv.pdf" download="CV of Uttam.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <!-- Using a placeholder image -->
+            <img src="uttam.jpg" alt="photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+     <section class="about" id="about">
+        <div class="about-img">
+             <!-- Using a placeholder image -->
+            <img src="uttam.jpg" alt="about">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-Stack Developer!</h3>
+            <p>I build and optimize user-focused, high-impact websites for a seamless user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+     </section>
+
+    <!-- Services Section -->
+     <section class="services" id="services">
+          <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+              <p>Building responsive, robust, and scalable web applications from the ground up, ensuring high performance and a great user experience across all devices.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+              <i class="fa-solid fa-palette"></i>
+              <h3>UI/UX Designing</h3>
+              <p>Creating intuitive and visually appealing user interfaces. I focus on user research and wireframing to deliver designs that are both beautiful and easy to use.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+              <i class="fa-brands fa-android"></i>
+              <h3>App Development</h3>
+              <p>Developing cross-platform mobile applications that provide a seamless experience on both iOS and Android, with a focus on performance and usability.</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+     </section>
+     
+     <!-- Portfolio Section -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image.png" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>E-commerce Platform</h4>
+                    <p>A full-featured online store with a custom CMS.</p>
+                    <a href="https://github.com/aljesh555/Puja_Sangrah_Ecommerce"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio.png" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>A personal portfolio to showcase creative work.</p>
+                    <a href="https://github.com/Utttam-Pathak/Portfolio"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> 
+              <div class="portfolio-box">
+                <img src="https://placehold.co/600x400/323946/ffffff?text=Project+3" alt="Loading...">
+                <div class="portfolio-layer">
+                    <h4>Upcoming</h4>
+                    <p>A big project is in line so updated.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <!-- contact section -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <form action="https://formspree.io/f/mnnzdeye" method="POST">
+            <div class="input-box">
+                <input type="text" name="Full Name" placeholder="Full Name" required>
+                <input type="email" name="Email Address" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="Mobile Number" placeholder="Mobile Number" required>
+                <input type="text" name="Email Subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 Uttam | All Rights Reserved.</p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- ScrollReveal.js for revealing animations on scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- Typed.js for the typing effect -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <!-- Link to your external JavaScript file -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
